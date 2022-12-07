@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import Image from "next/image";
 import PetCard from "../Components/PetCard";
 import { useEffect, useState } from "react";
-import { useUser } from "@auth0/nextjs-auth0";
+import { useUser } from "@auth0/nextjs-auth0/client";
 import Loader from "../Components/loader";
 import SignInOut from "../Components/signInOut.js";
 import NoDataCard from "../Components/noDataCard";
